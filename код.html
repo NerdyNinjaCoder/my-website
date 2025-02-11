@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон Toyota</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Автосалон Toyota</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.toyota.ru/model-range">Модельный ряд</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.toyota.ru/contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Блок контента -->
+    <section class="py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Добро пожаловать в Автосалон Toyota!</h2>
+                    <p>Мы предлагаем широкий выбор автомобилей Toyota, выгодные условия кредитования и профессиональное обслуживание.</p>
+                    <p>Наши специалисты помогут вам подобрать автомобиль, который идеально подойдет под ваши потребности и бюджет.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="toyota.jpg" class="img-fluid" alt="Toyota Car">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция с каруселью -->
+    <section id="models" class="py-5 bg-light">
+        <div class="container">
+            <h2>Модельный ряд Toyota</h2>
+            <div id="toyotaCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="https://www.toyota.ru/new-cars/camry/">
+                        <img src="camry.jpg" class="d-block w-100" alt="Toyota Camry">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Toyota Camry</h5>
+                            <p>Элегантный седан бизнес-класса, сочетающий комфорт и динамику.</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="https://www.toyota.ru/new-cars/rav4/">
+                        <img src="rav4.jpg" class="d-block w-100" alt="Toyota RAV4">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Toyota RAV4</h5>
+                            <p>Надежный и универсальный кроссовер для города и путешествий.</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="https://www.toyota.ru/new-cars/corolla/">
+                        <img src="corolla.jpg" class="d-block w-100" alt="Toyota Corolla">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Toyota Corolla</h5>
+                            <p>Популярный и экономичный седан с отличной надежностью.</p>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#toyotaCarousel"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#toyotaCarousel"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция с карточками автомобилей -->
+    <section class="py-5">
+        <div class="container">
+            <h2>Популярные модели</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="Toyota Camry">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota Camry</h5>
+                            <p class="card-text">Элегантный седан бизнес-класса, сочетающий комфорт и динамику.</p>
+                            <a href="https://www.toyota.ru/model-range" class="btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="Toyota RAV4">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota RAV4</h5>
+                            <p class="card-text">Надежный и универсальный кроссовер для города и путешествий.</p>
+                            <a href="https://www.toyota.ru/model-range" class="btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="dgfdsf.png" class="card-img-top" alt="Toyota Corolla">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota Corolla</h5>
+                            <p class="card-text">Популярный и экономичный седан с отличной надежностью.</p>
+                            <a href="https://www.toyota.ru/model-range" class="btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция с формой обращения -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2>Связаться с нами</h2>
+            <p>Оставьте свои контактные данные, и мы свяжемся с вами в ближайшее время.</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ваше имя</label>
+                    <input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Ваш email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Введите ваш email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Сообщение</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Введите ваше сообщение"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Контакты</h5>
+                    <p>Адрес: г. Москва, ул. Ленина, 1</p>
+                    <p>Телефон: +7 (495) 123-45-67</p>
+                    <p>Email: info@toyota-salon.ru</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Время работы</h5>
+                    <p>Пн-Пт: 9:00 - 20:00</p>
+                    <p>Сб: 10:00 - 18:00</p>
+                    <p>Вс: 10:00 - 16:00</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Навигация</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Главная</a></li>
+                        <li><a href="#models" class="text-light">Модельный ряд</a></li>
+                        <li><a href="#services" class="text-light">Услуги</a></li>
+                        <li><a href="#contact" class="text-light">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center mt-3">© 2024 Автосалон Toyota. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
